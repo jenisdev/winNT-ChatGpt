@@ -8,7 +8,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	WSADATA w = {};
 	WSAStartup(MAKEWORD(2, 2), &w);
-	CHATGPT_API c("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");
+	CHATGPT_API c("your-api-key");
 	c.SetModel("text-ada-001");
 	for (;;)
 	{
